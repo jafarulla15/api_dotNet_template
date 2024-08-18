@@ -54,8 +54,6 @@ namespace Transporter.Services
                 _crmDbContext.UserSession.UpdateRange(lstAllPreviousSession);
                 //----------------------//
 
-
-
                 userSession = new UserSession();
                 DateTime now = DateTime.Now;
                 userSession.SessionStart = now;
